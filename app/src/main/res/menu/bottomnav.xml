@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/it1"
+        android:title="Add Balance"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"/>
+    <item
+        android:id="@+id/it2"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/it3"
+        android:title="pendings"
+        android:icon="@drawable/ic_baseline_receipt_long_24" />
+
+
+</menu>

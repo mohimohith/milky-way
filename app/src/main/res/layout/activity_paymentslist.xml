@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paymentslist">
+    <ListView
+        android:id="@+id/listp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg4">
+
+
+    </ListView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/pnav6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="false"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#ffffff"
+        app:itemIconTint="@drawable/icon"
+        app:itemTextColor="@drawable/icon"
+        app:menu="@menu/bottomnav" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
